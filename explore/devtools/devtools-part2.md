@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 treated the numbers we inputed at string values rather than ints. So when we were doing the addition on the 2 it was just concatenating the two.
+2. I would type cast the num1 and num2 before performing any addition on the two. This can be done by using Number() function. We would first pass Number(num1) + Number(num2) to make sure they don't stay strings when we add them. 
